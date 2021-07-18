@@ -6,7 +6,7 @@ import androidx.room.TypeConverters
 import com.example.criminalintent.Crime
 import java.util.*
 
-@Database(entities = [Crime::class], version = 1)
+@Database(entities = [Crime::class], version = 2)
 @TypeConverters(CrimeTypeConverter::class)
 abstract class CrimeDatabase : RoomDatabase() {
 
